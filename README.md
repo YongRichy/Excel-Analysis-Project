@@ -79,9 +79,9 @@ It includes detailed information on:
 - I moved the ‘job_title_short’ to the row area and ‘salary_year_avg’ into the values area.
 - Then I added a new measure to calculate the median salary for United States jobs.
    
-‘’’
+```
   =CALCULATE(MEDIAN(data_job_all[salary_year_avg]), data_jobs_all[job_country] = “United States”)
-  ‘’’
+```
 
 #### DAX 
 
