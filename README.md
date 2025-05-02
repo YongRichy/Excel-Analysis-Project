@@ -48,22 +48,37 @@ It includes detailed information on:
 
 - Then, i transformed each query by changing column types,eliminating unnecessary columns, cleaning up texts to eliminate specific words, and trimming excess whitespace.
 
-  - Data job all
+  - Data Job Salary
 
-   ![Excel Analysis Project]()  
+    ![Screenshot 2025-04-28 061847](https://github.com/user-attachments/assets/7d927844-4248-4635-9c62-9f57fa65f501)
+  
 
-  - Data job skills  
+  - Data Job Skills 
 
-   ![Excel Analysis Project]()  
+   ![Screenshot 2025-04-28 062152](https://github.com/user-attachments/assets/885d56ef-6bb1-4b71-ad5f-bba8293699f5)
+ 
+### Load  
+- Finally, I loaded both transformed queries into the workbook, setting the foundation for my subsequent analysis.  
+  
+  - Data Job Salary
 
-## Analysis  
+   ![Screenshot 2025-04-28 062223](https://github.com/user-attachments/assets/c3e39e1e-be43-4336-a7d4-76134fb5f5d1)  
+
+   
+   - Data Job Skills
+
+   ![Screenshot 2025-04-28 062239](https://github.com/user-attachments/assets/2ed5cf30-87c8-4d9b-96b9-3eaa7aff340d)
+
+
+### Analysis  
 
 ### Insights  
 
 - There is a positive correlation between the number of skills requested in job postings and the median salary, particularly in roles like Data Scientist and Senior Data Engineer.
 - Roles that requires fewer skills Business Analyst, tend to offer lower salaries, suggesting that more specialized skill sets command higher market value.
 
-  ![Excel Analysis Project]()
+  ![Screenshot 2025-04-28 062429](https://github.com/user-attachments/assets/62f368ef-07d0-453d-9e53-d5ea419bf9b7)
+
 
 ### Finding  
 
