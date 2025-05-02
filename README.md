@@ -80,7 +80,7 @@ It includes detailed information on:
   ![Screenshot 2025-04-28 062429](https://github.com/user-attachments/assets/62f368ef-07d0-453d-9e53-d5ea419bf9b7)
 
 
-### Finding  
+### *Finding*  
 
 -This trend emphasizes the value of acquiring multiple relevant skills, particularly for individuals aiming for higher paying roles.  
 
@@ -95,10 +95,74 @@ It includes detailed information on:
 - Then I added a new measure to calculate the median salary for United States jobs.
    
 ```
-  =CALCULATE(MEDIAN(data_job_all[salary_year_avg]), data_jobs_all[job_country] = “United States”)
+  =CALCULATE([MEDIAN Salary], Data Job Salary[job_country] = “United States”)
 ```
 
-#### DAX 
+#### DAX  
+
+- To calculate the median salary I used DAX.
+
+ ```
+  =MEDIAN( Data Job Salary [salary_year_avg])
+```
+
+### Analysis  
+
+### Insights  
+
+- Job roles like Data Engineer and Data Scientist command higher median salary both in the US and internationally, showing the global demand for high level data expertise.
+- The salary disparity between US and Non US roles is particularly notable in high tech jobs, reason which can be influenced by the concentration of tech industries in the US.
+
+
+  ![Screenshot 2025-04-28 063729](https://github.com/user-attachments/assets/deefbe38-cef6-48fa-9315-a821d72d47a8)
+
+### *Findings*  
+- These salary insights are important for planning and salary negotiations, helping professionals and companies align their offers with market standard while considering geographical variations.
+
+## 3️⃣ What are the top skills of data professionals?  
+
+### Skill: Power Pivot  
+
+- I created a data model by integrating the 'Data Job Salary' and 'Data Job Skills' tables into one model.
+- Since I had already cleaned the data using Power Query; Power Pivot created a relationship between these two tables.
+
+### Data Model  
+
+- I created a relationship between my two tables using the 'Job id' column.
+
+   ![Screenshot 2025-04-28 064007](https://github.com/user-attachments/assets/72bd9882-78fc-454d-80bd-f7afb0e75ea1)
+
+### Power Pivot Menu  
+
+- The Power Pivot menu was used to refine my data model and makes it easy to create measures.
+
+![Screenshot 2025-04-28 064123](https://github.com/user-attachments/assets/aa7b0507-61c1-4883-ab49-302b2bec4c4c)  
+
+## Analysis  
+
+### Insights  
+
+- SQL and Python dominate as top skills in data related jobs, reflecting their foundational role in data processing and analysis.
+
+- Emerging technologies like AWS and Azure also shows significant presence, underlining the industry's shift towards cloud services and big data technologies.
+
+![Screenshot 2025-04-28 064428](https://github.com/user-attachments/assets/40c02b5b-2b8e-4d99-b55b-73463faed60d)  
+
+### *Findings*  
+
+- Understanding prevalent skills in the industry not only helps professionals stay competitive but also guildes traning and educational programs to focus on the most impactful technologies.
+
+
+## 4️⃣ What's the pay of the top 10 skills?  
+
+### Skill: Advanced Charts (Pivot Chart)  
+
+### Pivot Chart
+
+
+
+
+ 
 
 
 
