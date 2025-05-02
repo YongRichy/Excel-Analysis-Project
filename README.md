@@ -38,13 +38,13 @@ It includes detailed information on:
 
 ### Skill: Power Query (ETL)  
 
-### Extract  
+#### Extract  
 
 - I first used Power Query to extract the original data (’data salary all.xslx’) and create two queries:
   - First with all the data job information.
   - Second, list the skills for each job ID.
 
-### Transform  
+#### Transform  
 
 - Then, i transformed each query by changing column types,eliminating unnecessary columns, cleaning up texts to eliminate specific words, and trimming excess whitespace.
 
@@ -57,7 +57,7 @@ It includes detailed information on:
 
    ![Screenshot 2025-04-28 062152](https://github.com/user-attachments/assets/885d56ef-6bb1-4b71-ad5f-bba8293699f5)
  
-### Load  
+#### Load  
 - Finally, I loaded both transformed queries into the workbook, setting the foundation for my subsequent analysis.  
   
   - Data Job Salary
@@ -72,7 +72,7 @@ It includes detailed information on:
 
 ### Analysis  
 
-### Insights  
+#### Insights  
 
 - There is a positive correlation between the number of skills requested in job postings and the median salary, particularly in roles like Data Scientist and Senior Data Engineer.
 - Roles that requires fewer skills Business Analyst, tend to offer lower salaries, suggesting that more specialized skill sets command higher market value.
@@ -80,7 +80,7 @@ It includes detailed information on:
   ![Screenshot 2025-04-28 062429](https://github.com/user-attachments/assets/62f368ef-07d0-453d-9e53-d5ea419bf9b7)
 
 
-### *Finding*  
+#### *Finding*  
 
 -This trend emphasizes the value of acquiring multiple relevant skills, particularly for individuals aiming for higher paying roles.  
 
@@ -88,7 +88,7 @@ It includes detailed information on:
 
 ### Skills: Pivot Table and DAX  
 
-### Pivot Table  
+#### Pivot Table  
 
 - I created a Pivot Table using the Data Model I created with Power Pivot.
 - I moved the ‘job_title_short’ to the row area and ‘salary_year_avg’ into the values area.
@@ -108,7 +108,7 @@ It includes detailed information on:
 
 ### Analysis  
 
-### Insights  
+#### Insights  
 
 - Job roles like Data Engineer and Data Scientist command higher median salary both in the US and internationally, showing the global demand for high level data expertise.
 - The salary disparity between US and Non US roles is particularly notable in high tech jobs, reason which can be influenced by the concentration of tech industries in the US.
@@ -116,17 +116,17 @@ It includes detailed information on:
 
   ![Screenshot 2025-04-28 063729](https://github.com/user-attachments/assets/deefbe38-cef6-48fa-9315-a821d72d47a8)
 
-### *Findings*  
+#### *Findings*  
 - These salary insights are important for planning and salary negotiations, helping professionals and companies align their offers with market standard while considering geographical variations.
 
 ## 3️⃣ What are the top skills of data professionals?  
 
-### Skill: Power Pivot  
+#### Skill: Power Pivot  
 
 - I created a data model by integrating the 'Data Job Salary' and 'Data Job Skills' tables into one model.
 - Since I had already cleaned the data using Power Query; Power Pivot created a relationship between these two tables.
 
-### Data Model  
+#### Data Model  
 
 - I created a relationship between my two tables using the 'Job id' column.
 
@@ -138,9 +138,9 @@ It includes detailed information on:
 
 ![Screenshot 2025-04-28 064123](https://github.com/user-attachments/assets/aa7b0507-61c1-4883-ab49-302b2bec4c4c)  
 
-## Analysis  
+### Analysis  
 
-### Insights  
+#### Insights  
 
 - SQL and Python dominate as top skills in data related jobs, reflecting their foundational role in data processing and analysis.
 
@@ -148,7 +148,7 @@ It includes detailed information on:
 
 ![Screenshot 2025-04-28 064428](https://github.com/user-attachments/assets/40c02b5b-2b8e-4d99-b55b-73463faed60d)  
 
-### *Findings*  
+#### *Findings*  
 
 - Understanding prevalent skills in the industry not only helps professionals stay competitive but also guildes traning and educational programs to focus on the most impactful technologies.
 
@@ -157,7 +157,7 @@ It includes detailed information on:
 
 ### Skill: Advanced Charts (Pivot Chart)  
 
-### Pivot Chart
+#### Pivot Chart
 
 
 
