@@ -2,7 +2,7 @@
 
 ## Introduction  
 
-Completing my self learning of Excel and exploring job opportunities, I delve into the data science market to identify optimal job roles and essential skills. My goal is to understand the key skills that top employers are seeking, as well as strategies to secure higher paying positions in this field.  
+Completing my self learning of Excel and indulge to carry out a real world Excel project, I delve into the data science market to identify optimal job roles and essential skills. My goal is to understand the key skills that top employers are seeking, as well as strategies to secure higher paying positions in this field.  
 
 ### Questions to Analyze  
 
