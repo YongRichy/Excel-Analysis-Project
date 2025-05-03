@@ -91,7 +91,7 @@ It includes detailed information on:
 #### Pivot Table  
 
 - I created a Pivot Table using the Data Model I created with Power Pivot.
-- I moved the ‘job_title_short’ to the row area and ‘salary_year_avg’ into the values area.
+- I moved the `job_title_short` to the row area and `salary_year_avg` into the values area.
 - Then I added a new measure to calculate the median salary for United States jobs.
    
 ```
@@ -123,7 +123,7 @@ It includes detailed information on:
 
 #### Skill: Power Pivot  
 
-- I created a data model by integrating the 'Data Job Salary' and 'Data Job Skills' tables into one model.
+- I created a data model by integrating the `Data Job Salary` and `Data Job Skills` tables into one model.
 - Since I had already cleaned the data using Power Query; Power Pivot created a relationship between these two tables.
 
 #### Data Model  
