@@ -148,7 +148,7 @@ It includes detailed information on:
 
 ![Screenshot 2025-04-28 064428](https://github.com/user-attachments/assets/40c02b5b-2b8e-4d99-b55b-73463faed60d)  
 
-#### *Findings*  
+#### *Finding*  
 
 - Understanding prevalent skills in the industry not only helps professionals stay competitive but also guildes traning and educational programs to focus on the most impactful technologies.
 
@@ -157,7 +157,31 @@ It includes detailed information on:
 
 ### Skill: Advanced Charts (Pivot Chart)  
 
-#### Pivot Chart
+#### Pivot Chart  
+
+- I created a combo Pivot Chart plot mwdian salary and skill likelihood (%) from my Pivot Table.
+    - **Primary Axis:** Median Salary (as a Clustered Column)
+    - **Secondary Axis:** Skill Likelihood (as a line with Markers)
+- To customize the chart, I added a title axis, removed the lines (skill likelihood), and changed the markers to diamond shape.
+
+### Analysis  
+
+#### Insights  
+
+- Higher median salaries are associated with skills like Python, Oracle, SQL, suggesting their critical role in high paying tech jobs.
+- Skills like Power Point and Word have the lowest median salaries and likelihood, indicating less specialization and demand in high salary sectors.
+
+
+![Screenshot 2025-04-28 064625](https://github.com/user-attachments/assets/71e79567-bf51-4314-b705-21a5418a7813)  
+
+#### *Finding*  
+
+- This chart highlights the importance of investing time in learning high value skills like Python and SQL, which are evidently tied to higher paying roles, especially for those looking to maximize their salary in the tech industry.
+
+## Conclusion  
+
+As a part of my self learing  Data Analysis (Excel) packaged by Luke Barousse on his Youtube channel, completing the course require to embarked on this Excel based project to uncover insights about data science job market. Using a dataset curated from real world postings, I analyzed job titles, salaries, locations, and essential skills. Leveraging on Excel features like Power Query, Power Pivot, DAX and Pivot Charts, I discovered key correlations between multiple skills and higher salaries, majorly in SQL, Python, and cloud technologies. 
+
 
 
 
